@@ -33,10 +33,7 @@ class Landing extends Component {
         <i class="fa fa-free-code-camp" aria-hidden="true" />
       </a>
 
-      // {/* CodeWars */}
-      // <a href="https://www.codewars.com/users/atbeesley"  rel="noopener noreferrer" target="_blank">
-      //   <i class="fa fa-codewars-square" aria-hidden="true" />
-      // </a>
+    
       </div>
       </Cell>
       </Grid>
