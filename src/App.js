@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header, Navigation, Drawer, Content, Layout } from 'react-mdl';
+import { Header, Navigation, Drawer, Content, Layout } from 'react-mdl'; 
 
 function App() {
   return (
