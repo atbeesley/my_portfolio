@@ -9,7 +9,7 @@ render() {
   return (
     <div className="demo-big-content">
         <Layout>
-            <Header title="Title" scroll>
+            <Header title="Title" className="header-colour" scroll>
                 <Navigation>
                     <Link to="/aboutme">About me</Link>
                     <Link to="/projects">My projects</Link>
