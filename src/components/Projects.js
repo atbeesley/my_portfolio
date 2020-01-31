@@ -63,9 +63,61 @@ class Projects extends Component {
         </Card>
         </div>
       )
-    } else if(this.state.activeTab === 1){
+    }
+    else if(this.state.activeTab === 1){
       return (
-      <div><h1>This is Vue.js</h1></div>
+      <div className="projects-grid">
+      {/* Vue Project 1 */}
+      <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
+      <CardTitle style={{ color: '#000', height: '176px',
+      background: 'url(https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg) center / cover'
+      }}>Vue Project #1</CardTitle>
+      <CardText>
+      This is my first Vue project.
+      </CardText>
+        <CardActions border>
+          <Button colored>Github</Button>
+          <Button colored>Live demo</Button>
+        </CardActions>
+      <CardMenu style={{color: '#fff'}}>
+        <IconButton name="share" />
+      </CardMenu>
+      </Card>
+
+      {/* Vue Project 2 */}
+      <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
+      <CardTitle style={{ color: '#000', height: '176px',
+      background: 'url(https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg) center / cover'
+      }}>Vue Project #2</CardTitle>
+      <CardText>
+      This is my second Vue project.
+      </CardText>
+        <CardActions border>
+          <Button colored>Github</Button>
+          <Button colored>Live demo</Button>
+        </CardActions>
+      <CardMenu style={{color: '#fff'}}>
+        <IconButton name="share" />
+      </CardMenu>
+      </Card>
+
+      {/* Vue Project 3 */}
+      <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
+      <CardTitle style={{ color: '#000', height: '176px',
+      background: 'url(https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg) center / cover'
+      }}>Vue Project #3</CardTitle>
+      <CardText>
+      This is my third Vue project.
+      </CardText>
+        <CardActions border>
+          <Button colored>Github</Button>
+          <Button colored>Live demo</Button>
+        </CardActions>
+      <CardMenu style={{color: '#fff'}}>
+        <IconButton name="share" />
+      </CardMenu>
+      </Card>
+      </div>
     )
     } else if(this.state.activeTab === 2){
       return (
