@@ -125,7 +125,7 @@ class Projects extends Component {
         {/* Sinatra Project 1 */}
         <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
         <CardTitle style={{ color: '#000', height: '176px',
-        background: 'url(https://upload.wikimedia.org/wikipedia/en/2/2c/Sinatralogo.png) center / cover'
+        background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center / cover'
         }}>Vue Project #1</CardTitle>
         <CardText>
         This is my first Sinatra project.
@@ -142,7 +142,7 @@ class Projects extends Component {
         {/* Sinatra Project 2 */}
         <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
         <CardTitle style={{ color: '#000', height: '176px',
-        background: 'url(https://upload.wikimedia.org/wikipedia/en/2/2c/Sinatralogo.png) center / cover'
+        background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center / cover'
         }}>Vue Project #2</CardTitle>
         <CardText>
         This is my second Sinatra project.
@@ -159,7 +159,7 @@ class Projects extends Component {
         {/* Sinatra Project 3 */}
         <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
         <CardTitle style={{ color: '#000', height: '176px',
-        background: 'url(https://upload.wikimedia.org/wikipedia/en/2/2c/Sinatralogo.png) center / cover'
+        background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center / cover'
         }}>Sinatra Project #3</CardTitle>
         <CardText>
         This is my third Sinatra project.
