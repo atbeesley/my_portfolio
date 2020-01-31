@@ -20,13 +20,22 @@ class Contact extends Component {
             <div className="contact-list">
             <List>
       <ListItem>
-        <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+        <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+          <i className="fa fa-phone-square" aria-hidden="true" />
+         (+44) 07903477798
+          </ListItemContent>
       </ListItem>
       <ListItem>
-        <ListItemContent icon="person">Aaron Paul</ListItemContent>
+        <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+          <i className="fa fa-envelope" aria-hidden="true" />
+         alexander.beesley@gmail.com
+          </ListItemContent>
       </ListItem>
       <ListItem>
-        <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+        <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+          <i className="fa fa-skype" aria-hidden="true" />
+         alex.beesley2
+          </ListItemContent>
       </ListItem>
     </List>
 </div>
