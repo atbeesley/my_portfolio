@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Projects extends Component {
   constructor(props){
@@ -10,7 +10,58 @@ class Projects extends Component {
   toggleCategories(){
     if(this.state.activeTab === 0){
       return(
-        <div><h1>This is React.js</h1></div>
+        <div className="projects-grid">
+        {/* React Project 1 */}
+        <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
+        <CardTitle style={{ color: '#000', height: '176px',
+        background: 'url(https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) center / cover'
+        }}>React Project #1</CardTitle>
+        <CardText>
+        This is my first React project.
+        </CardText>
+          <CardActions border>
+            <Button colored>Github</Button>
+            <Button colored>Live demo</Button>
+          </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+        </Card>
+
+        {/* React Project 2 */}
+        <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
+        <CardTitle style={{ color: '#000', height: '176px',
+        background: 'url(https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) center / cover'
+        }}>React Project #2</CardTitle>
+        <CardText>
+        This is my second React project.
+        </CardText>
+          <CardActions border>
+            <Button colored>Github</Button>
+            <Button colored>Live demo</Button>
+          </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+        </Card>
+
+        {/* React Project 3 */}
+        <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
+        <CardTitle style={{ color: '#000', height: '176px',
+        background: 'url(https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) center / cover'
+        }}>React Project #3</CardTitle>
+        <CardText>
+        This is my third React project.
+        </CardText>
+          <CardActions border>
+            <Button colored>Github</Button>
+            <Button colored>Live demo</Button>
+          </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+        </Card>
+        </div>
       )
     } else if(this.state.activeTab === 1){
       return (
@@ -32,10 +83,14 @@ class Projects extends Component {
           <Tab>Sinatra</Tab>
         </Tabs>
 
-      <section className="projects-grid">
-        {this.toggleCategories()}
-      </section>
-      </div>
+        <section className="projects-grid">
+          <Grid>
+            <Cell col={12}>
+              {this.toggleCategories()}
+            </Cell>
+          </Grid>
+        </section>
+        </div>
 
     )
   }
