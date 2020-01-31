@@ -9,7 +9,7 @@ render() {
   return (
     <div className="demo-big-content">
         <Layout>
-            <Header title="Title" className="header-colour" scroll>
+            <Header title=" " className="header-colour" scroll>
                 <Navigation>
                     <Link to="/aboutme">About me</Link>
                     <Link to="/projects">My projects</Link>
@@ -19,6 +19,7 @@ render() {
             </Header>
             <Drawer title="Title">
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/aboutme">About me</Link>
                 <Link to="/projects">My projects</Link>
                 <Link to="/resume">My CV</Link>

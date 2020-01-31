@@ -5,7 +5,6 @@ class Landing extends Component {
   render(){
     return(
       <div style ={{width: '100%', margin: 'auto'}}>
-      <h1>Landing Page </h1>
       <Grid className="landing-grid">
       <Cell col={12}><img
       src="https://i.imgur.com/hNsZK7z.png"
@@ -13,7 +12,8 @@ class Landing extends Component {
       className="avatar-image"
       />
       <div className="banner-text">
-      <h1>Web application developer</h1>
+      <h1>Alex Beesley</h1>
+      <h2>Web application developer</h2>
       <hr />
       <p>HTML5 & CSS3 | JavaScript | Bootstrap | Ruby | Sinatra | SQL | Node.js | Express | Vue | React | MongoDB | Java | Spring</p>
       </div>
@@ -33,7 +33,7 @@ class Landing extends Component {
         <i class="fa fa-free-code-camp" aria-hidden="true" />
       </a>
 
-    
+
       </div>
       </Cell>
       </Grid>
