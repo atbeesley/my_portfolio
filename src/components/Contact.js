@@ -12,9 +12,7 @@ class Contact extends Component {
               alt="avatar"
               className="avatar-image"
               />
-              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Alex Beesley is a web developer living in Edinburgh, Scotland.</p>
-              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Alex graduated from CodeClan's Professional Software Development course in January 2020.</p>
-              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>In his spare time, Alex enjoys hiking, travelling, and learning new (human as well as programming) languages.</p>
+              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Get in touch with Alex using one of these methods.</p>
           </Cell>
           <Cell col={6}>
             <h2>Contact me</h2>
