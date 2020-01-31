@@ -126,7 +126,7 @@ class Projects extends Component {
         <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
         <CardTitle style={{ color: '#000', height: '176px',
         background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center / cover'
-        }}>Vue Project #1</CardTitle>
+        }}>Sinatra Project #1</CardTitle>
         <CardText>
         This is my first Sinatra project.
         </CardText>
@@ -143,7 +143,7 @@ class Projects extends Component {
         <Card shadow={3} style={{ minWidth: '450', margin: 'auto' }}>
         <CardTitle style={{ color: '#000', height: '176px',
         background: 'url(https://avatars3.githubusercontent.com/u/8312?s=400&v=4) center / cover'
-        }}>Vue Project #2</CardTitle>
+        }}>Sinatra Project #2</CardTitle>
         <CardText>
         This is my second Sinatra project.
         </CardText>
