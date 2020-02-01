@@ -111,6 +111,17 @@
   padding-right: 5rem;
 }
 
+/* Resume page */
+.resume-right-col{
+  background: 27221F;
+  color: white;
+}
+
+/* .resume-left-col{
+
+} */
+
+
 .App {
   text-align: center;
 }
