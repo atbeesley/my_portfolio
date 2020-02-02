@@ -114,7 +114,8 @@
 /* Resume page */
 .resume-right-col{
   background: 27221F;
-  color: white;
+  color: black;
+  padding: 2em;
 }
 
 /* .resume-left-col{
