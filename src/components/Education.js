@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
 
 class Education extends Component {
   render(){
     return(
-      <div>
-        <h1>{this.props.startYear}</h1>
-      </div>
+      <Grid>
+        <Cell col={4}>Left</Cell>
+      </Grid>
     )
   }
 }
